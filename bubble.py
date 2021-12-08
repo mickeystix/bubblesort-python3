@@ -8,6 +8,8 @@ def bubbleSort(list):
     for i in range(len(list)): # for each value in range matching the length the of the list. This acts as primary loop to iterate through the list
         print ("% d" % list[i]) # print the value in the list at that position that matches the iteration of this loop
 
+        
+# Test code
 list = [64, 34, 25, 12, 22, 11, 90, 500, 2132, 112]
 
 bubbleSort(list)
